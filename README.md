@@ -14,13 +14,13 @@ Proyek ini menggunakan metode **Data Envelopment Analysis (DEA)**. Melalui DEA, 
 Analisis ini menggunakan pendekatan ilmiah dengan parameter spesifik:
 
 1.  ***Input-Oriented Model*:** Fokus pada ***Cost Optimization***. Model ini mengidentifikasi bagaimana perusahaan dapat mengoptimalkan *input* tanpa menurunkan standar kualitas *output*. Pemilihan orientasi *input* dibandingkan *output* didasarkan pada konteks bahwa lebih realistis bagi perusahaan memiliki kontrol lebih besar terhadap *input* (seperti gaji) dibandingkan kontrol langsung terhadap *output* (seperti *performance rating* yang dipengaruhi banyak faktor eksternal dan subjektivitas).
-2.  **VRS (*Variable Returns to Scale)):** Memberikan penilaian lebih adil karena hubungan *input* dan *output* pada proyek ini tidak linear. Hal ini sejalan dengan konsep *diminishing returns*.
+2.  **VRS (*Variable Returns to Scale*):** Memberikan penilaian lebih adil karena hubungan *input* dan *output* pada proyek ini tidak linear. Hal ini sejalan dengan konsep *diminishing returns*.
 3.  DEA dalam proyek ini menghasilkan skor efisiensi teknis untuk setiap DMU (karyawan). Penggunaan efisiensi teknis murni mengukur performa operasional tanpa terpengaruh harga pasar atau fluktuasi ekonomi luar. Dengan demikian, perusahaan dapat mengidentifikasi karyawan yang mampu mencapai *frontier* (batas performa terbaik, skor VRS=1) dan mendeteksi *slack* (pemborosan *input*) pada karyawan yang memiliki skor VRS dibawah 1, sehingga intervensi manajerial dapat dilakukan secara presisi. 
 
 ---
 
 ## 📌 Employee Efficiency Categorization
-Dalam proyek ini, karyawan dikelompokkan ke dalam 4 kategori strategis berdasarkan skor **DEA (VRS)**
+Dalam proyek ini, saya mengelompokkan karyawan ke dalam 4 kategori strategis berdasarkan skor **DEA (VRS)**
 
 * ***The Benchmarks* (skor efisiensi VRS: 1.0):** Karyawan standar emas. Dalam proyek ini, seorang karyawan dikategorikan efisien (*The benchmarks*) apabila ia mampu menghasilkan kombinasi *output* yang maksimal, yaitu: meraih *performance rating* yang tinggi, menduduki *job level* yang strategis, serta mendapatkan *percent salary hike* sebagai bentuk apresiasi dan pengakuan finansial yang optimal dari perusahaan.
 * - Pencapaian tersebut berhasil diraih dengan penggunaan *input* yang efisien, yang diukur melalui nilai *monthly income* (gaji), *training times* (frekuensi pelatihan), dan *total working years* (lama bekerja) dibandingkan dengan rekan kerja lainnya dalam kelompok skala yang setara.
@@ -66,4 +66,5 @@ Dalam proyek ini, karyawan dikelompokkan ke dalam 4 kategori strategis berdasark
 ---
 
 ## 🔗 Live Dashboard
+Melalui *dashboard* ini, kita bisa melihat skor efisiensi secara agregat (perusahaan) atau spesifik (per departemen). Dashboard ini saya rancang untuk memudahkan pimpinan dalam mengidentifikasi departemen mana yang membutuhkan optimasi input paling segera.
 [KLIK UNTUK MELIHAT INTERACTIVE DASHBOARD](https://public.tableau.com/app/profile/aisyahlani.mulyawati/viz/DEA_2NDProjectAisyahlani/Dashboard1)
